@@ -12,6 +12,9 @@
 		C319E7972CA18259000643A6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C319E7962CA18259000643A6 /* Item.swift */; };
 		C319E7992CA1825A000643A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C319E7982CA1825A000643A6 /* Assets.xcassets */; };
 		C319E79C2CA1825A000643A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C319E79B2CA1825A000643A6 /* Preview Assets.xcassets */; };
+		C319E7A32CA18497000643A6 /* BusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C319E7A22CA18497000643A6 /* BusListView.swift */; };
+		C319E7A52CA18846000643A6 /* BusDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C319E7A42CA18846000643A6 /* BusDetailView.swift */; };
+		C3F01C502CA3095000EFBA60 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F01C4F2CA3095000EFBA60 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		C319E7962CA18259000643A6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		C319E7982CA1825A000643A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C319E79B2CA1825A000643A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C319E7A22CA18497000643A6 /* BusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusListView.swift; sourceTree = "<group>"; };
+		C319E7A42CA18846000643A6 /* BusDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusDetailView.swift; sourceTree = "<group>"; };
+		C3F01C4F2CA3095000EFBA60 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			children = (
 				C319E7922CA18259000643A6 /* OtobusumNeredeApp.swift */,
 				C319E7942CA18259000643A6 /* ContentView.swift */,
+				C319E7A22CA18497000643A6 /* BusListView.swift */,
+				C319E7A42CA18846000643A6 /* BusDetailView.swift */,
 				C319E7962CA18259000643A6 /* Item.swift */,
+				C3F01C4F2CA3095000EFBA60 /* City.swift */,
 				C319E7982CA1825A000643A6 /* Assets.xcassets */,
 				C319E79A2CA1825A000643A6 /* Preview Content */,
 			);
@@ -140,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C319E7A52CA18846000643A6 /* BusDetailView.swift in Sources */,
 				C319E7952CA18259000643A6 /* ContentView.swift in Sources */,
+				C3F01C502CA3095000EFBA60 /* City.swift in Sources */,
+				C319E7A32CA18497000643A6 /* BusListView.swift in Sources */,
 				C319E7972CA18259000643A6 /* Item.swift in Sources */,
 				C319E7932CA18259000643A6 /* OtobusumNeredeApp.swift in Sources */,
 			);
